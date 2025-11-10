@@ -328,13 +328,21 @@
                         達成「進度提前 + 成本優化」雙重目標，驗證團隊高壓環境下的管理韌性
                     </p>
                     <div class="flex flex-col gap-8">
+                        <!-- SPI 調整：兩行顯示 + 數字縮小 -->
                         <div class="bg-neutral p-8 rounded-xl border border-secondary/20 flex items-center justify-between shadow-sm">
-                            <span class="font-bold text-2xl">SPI (進度績效指數)</span>
-                            <span class="text-5xl font-black text-gradient-pro counter-animate" data-target="1.2" data-decimals="1">0.0</span>
+                            <div class="font-bold flex flex-col items-center">
+                                <span class="text-2xl">SPI</span>
+                                <span class="text-lg text-dark/70">(進度績效指數)</span>
+                            </div>
+                            <span class="text-3xl font-black text-gradient-pro counter-animate" data-target="1.2" data-decimals="1">0.0</span>
                         </div>
+                        <!-- CPI 調整：兩行顯示 + 數字縮小 -->
                         <div class="bg-neutral p-8 rounded-xl border border-secondary/20 flex items-center justify-between shadow-sm">
-                            <span class="font-bold text-2xl">CPI (成本績效指數)</span>
-                            <span class="text-5xl font-black text-gradient-pro counter-animate" data-target="1.1" data-decimals="1">0.0</span>
+                            <div class="font-bold flex flex-col items-center">
+                                <span class="text-2xl">CPI</span>
+                                <span class="text-lg text-dark/70">(成本績效指數)</span>
+                            </div>
+                            <span class="text-3xl font-black text-gradient-pro counter-animate" data-target="1.1" data-decimals="1">0.0</span>
                         </div>
                     </div>
                 </div>
